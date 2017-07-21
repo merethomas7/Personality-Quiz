@@ -41,18 +41,24 @@ function random() {
 
 if(score<4) {
   document.getElementById("demo").innerHTML="Michelle Phan"
+  document.getElementById("youtubepic").src="michellephan.jpg"
 }
 
 else if(score<6) {
   document.getElementById("demo").innerHTML="Ryan ToyReview"
+  document.getElementById("youtubepic").src="toys.jpg"
 }
 
 else if(score<8) {
   document.getElementById("demo").innerHTML="How to Cake it"
+  document.getElementById("youtubepic").src="caking.jpg"
+
 }
 
 else if(score<10) {
-  document.getElementById("demo").innerHTML="PewtiePie"
+  document.getElementById("demo").innerHTML="PewdiePie"
+  document.getElementById("youtubepic").src="pewdiepielogo.png"
+
 }
 
 }
